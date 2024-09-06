@@ -1,0 +1,26 @@
+capitals={
+    "France":"Paris",
+    "Germany":"Berlin"
+}
+print(capitals)
+print(capitals["France"])
+travel_log={
+    "France":["Paris","Dijon"],
+    "Germany":["Berlin","Stuttgart"]
+}
+print(travel_log["France"])
+print(travel_log["Germany"][1])
+nested_list=["A","B",["C","D"]]
+print(nested_list[2])
+print(nested_list[2][1])
+travel_log={
+    "France":{
+    "Cities_visited": ["Paris","Dijon"],
+    "Total_visits":12
+    },
+    "Germany":{
+    "cities_visited":["Berlin","Stuttgart"],
+    "Total_visits":8
+    }
+}
+print(travel_log["Germany"]["cities_visited"][1])
